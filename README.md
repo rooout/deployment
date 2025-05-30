@@ -70,3 +70,45 @@ Manual deployment is hard to integrate into CI/CD pipelines.
 Manifests are ideal for automation with GitOps and CI/CD workflows.
 
 Manual deployment is fast for early experimentation, but when the cluster is reset or redeployment is needed in a different environment (e.g., a managed Kubernetes cluster on GCP), using manifests is far more efficient. You just run kubectl apply -f without rewriting any commands.
+
+
+## 5. (Optional) Do the same tutorial steps, but on a managed Kubernetes cluster (e.g., GCP). You need to provision a Kubernetes cluster on Google Cloud Platform. Then, re-run the tutorial steps (Hello Minikube and Rolling Update) on the remote cluster. Document your attempt and highlight the differences and any issues you encountered.
+Saya menggunakan [killercoda kubernetes playground](https://killercoda.com/playgrounds/scenario/kubernetes), perbedaan utamanya adalah penggunaan resource pada server, berbeda dengan saat dijalankan di local dengan setup docker desktop + kubernetes. Keterbatasan VM membuat response time dan URL deployment menjadi lebih lemot dan untuk kasus ini hanya dapat diakses melalui CLI menggunakan command curl. Secara konsep deployment hingga rollback sama saja.
+
+![bonus](img/bonus1.png)
+
+![bonus](img/bonus2.png)
+
+![bonus](img/bonus3.png)
+
+![bonus](img/bonus4.png)
+
+![bonus](img/bonus5.png)
+
+![bonus](img/bonus6.png)
+
+![bonus](img/bonus7.png)
+
+![bonus](img/bonus8.png)
+
+![bonus](img/bonus9.png)
+
+![bonus](img/bonus10.png)
+
+![bonus](img/bonus11.png)
+
+![bonus](img/bonus12.png)
+
+![bonus](img/bonus13.png)
+
+![bonus](img/bonus14.png)
+
+![bonus](img/bonus15.png)
+
+![bonus](img/bonus16.png)
+
+![bonus](img/bonus17.png)
+
+![bonus](img/bonus18.png)
+
+![bonus](img/bonus19.png)
